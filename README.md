@@ -15,7 +15,7 @@ git clone https://github.com/genie360s/tic-tac-toe.git
 2. **Install Dependencies**: Navigate to the project directory and install the required dependencies using npm or yarn.
 
 ```bash
-cd tic-tac-toe-
+cd tic-tac-toe
 npm install
 ```
 
