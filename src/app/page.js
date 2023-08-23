@@ -5,6 +5,7 @@ import CallToAction from './components/CallToAction';
 import History from './components/History';
 import GameBenefit from './components/GameBenefit';
 import ContactUs from './components/ContactUs';
+import Footer from './components/Footer';
 
 
 
@@ -48,7 +49,7 @@ export default function Home() {
       </div>
 
 
-      {/* < CustomFooter /> */}
+      < Footer />
     </main>
   );
 }

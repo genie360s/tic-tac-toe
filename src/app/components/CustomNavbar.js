@@ -24,7 +24,7 @@ export default function CustomNavbar() {
             </div>
         </div>
         <div className="flex items-center flex-shrink-0 text-black ">
-          <button className="bg-transparent rounded-full outline outline-1 outline-orange-400 hover hover:bg-orange-400 hover:text-white px-5 py-2">Sign in</button>
+          <button className="bg-transparent rounded-lg outline outline-1 outline-orange-400 hover hover:bg-orange-400 hover:text-white px-5 py-2">Sign in</button>
         </div>
     </nav>
     </>
