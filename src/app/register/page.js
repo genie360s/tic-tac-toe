@@ -1,4 +1,5 @@
 // import Image from 'next/image'
+'use client'
 import React from 'react';
 import Register from '../components/Register';
 import CustomNavbar from '../components/CustomNavbar';
