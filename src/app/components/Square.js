@@ -25,7 +25,7 @@ function calculateWinner(squares) {
 function Square({ value, onSquareClick }) {
 
   return (
-    <div className='border-white border-2 '>
+    <div className='border-orange-400 border-2 '>
       <button className=" rounded-none p-5 w-25 " onClick={onSquareClick} >
         {value}
       </button>

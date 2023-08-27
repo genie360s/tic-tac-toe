@@ -111,7 +111,7 @@ export default function Login() {
                                     <div className="mx-auto mt-5">
                                         <button
                                             type="submit"
-                                            className="bg-orange-500 text-white font-bold py-2 px-4 rounded-full w-full"
+                                            className="bg-orange-500 text-white font-bold py-2 px-4 rounded-lg hover:bg-orange-500 w-full"
                                         >
                                             Login
                                         </button>
