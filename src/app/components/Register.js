@@ -4,32 +4,33 @@ import Image from 'next/image';
 
 
 import supabase from '../../../supabase';
+import bcrypt from 'bcryptjs';
 
+import { useRouter } from 'next/navigation';
 
-
-// import { useRouter } from 'next/router';
-
-export default function Register() {
+export default function Registers() {
     const [name, setName] = useState('');
     const [username, setUsername] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-    // const router = useRouter();
+    const router = useRouter();
 
     const handleSubmit = async (e) => {
         e.preventDefault();
 
+        const hashedPassword = await bcrypt.hash(password, 10);
+
         const { data, error } = await supabase
             .from('user')
-            .insert([{ name, username, email, password }]);
+            .insert([{ name, username, email, password : hashedPassword }]);
 
         if (error) {
             console.error(error);
         } else {
             console.log(data);
             console.log('success');
-            // router.push('/login');
-            window.location.href = '/login';
+            router.push('/login');
+            // window.location.href = '/login';
             
         }
 

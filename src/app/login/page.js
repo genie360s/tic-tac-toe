@@ -1,5 +1,6 @@
 // login page
 // components
+"use client"
 import CustomNavbar from "../components/CustomNavbar"
 import Login from "../components/Login"
 

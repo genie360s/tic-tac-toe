@@ -17,7 +17,7 @@ export default function CallToAction() {
                         as an energizer.
                     </div>
                     <div className="  mx-auto py-4">
-                        <button className=" rounded-lg bg-orange-400 text-white hover hover:bg-orange-500 hover:shadow-lg hover:-translate-y-1 w-96  px-5 py-3 transition duration-150">Start playing XO</button>
+                        <Link href="/register"><button className=" rounded-lg bg-orange-400 text-white hover hover:bg-orange-500 hover:shadow-lg hover:-translate-y-1 w-96  px-5 py-3 transition duration-150">Start playing XO</button></Link>
                     </div>
                     <div className=" w-[50vw]  mx-auto py-[5em]">
                         <Image

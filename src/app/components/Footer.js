@@ -13,9 +13,7 @@ export default function Footer() {
             <footer className="bg-white relative top-[20em]">
                 <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
                     <div className="lg:flex lg:items-start lg:gap-8">
-                        <div className="text-teal-600 font-bold ">
-                            XO games
-                        </div>
+                        
 
                         <div
                             className="mt-8 grid grid-cols-2 gap-8 lg:mt-0 lg:grid-cols-5 lg:gap-y-16"
@@ -26,7 +24,7 @@ export default function Footer() {
                                         Learn more about XO games
                                     </h2>
 
-                                    <p className="mt-4 text-gray-500">
+                                    <p className="mt-4 text-orange-400">
                                         The game to enhance  focus , strategy and critical thinking.
                                     </p>
                                 </div>
@@ -42,12 +40,12 @@ export default function Footer() {
                                         <input
                                             type="email"
                                             id="UserEmail"
-                                            placeholder="john@rhcp.com"
+                                            placeholder="Enter your email"
                                             className="w-full border-none focus:border-transparent focus:ring-transparent sm:text-sm"
                                         />
 
                                         <button
-                                            className="mt-1 w-full bg-teal-500 px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-none hover:bg-teal-600 sm:mt-0 sm:w-auto sm:shrink-0"
+                                            className="mt-1 w-full bg-orange-400 rounded-lg hover:bg-orange-500 px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-none  sm:mt-0 sm:w-auto sm:shrink-0"
                                         >
                                             Sign Up
                                         </button>
@@ -66,7 +64,7 @@ export default function Footer() {
                                     </li>
 
                                     <li>
-                                        <a href="#" className="text-gray-700 transition hover:opacity-75">
+                                        <a href="#" className=" transition hover:opacity-75">
                                             Contribution to the project
                                         </a>
                                     </li>

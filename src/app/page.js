@@ -21,14 +21,14 @@ export default function Home() {
         <CallToAction />
       </div>
 
-      <div className="z-10 w-full max-w-5xl items-center justify-content   ">
+      <div className="z-10 w-full max-w-5xl items-center justify-content   " id="history">
         <h2 className="text-3xl w-full font-bold text-center leading-[1vw]"> History of XO game</h2>
-        <div className="z-10 w-full max-w-5xl items-center justify-between  lg:flex">
+        <div className="z-10 w-full max-w-5xl items-center justify-between  lg:flex" >
           <History />
         </div>
       </div>
 
-      <div className="z-10 w-full max-w-5xl  relative top-[-10vw]">
+      <div className="z-10 w-full max-w-5xl  relative top-[-10vw]" id="#benefits">
         <h2 className="text-3xl w-full font-bold text-center mx-auto  leading-[1vw]"> The benefits</h2>
         <div className="z-10 w-full max-w-5xl items-center justify-between  lg:flex ">
           <GameBenefit />
@@ -36,7 +36,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="z-10 w-full max-w-5xl  relative top-[8vw]">
+      <div className="z-10 w-full max-w-5xl  relative top-[8vw]" id="contacts">
         <h2 className="text-3xl w-full font-bold text-center mx-auto  leading-[1vw]"> Contact Us</h2>
         <div className="z-10 w-full max-w-5xl items-center justify-between  lg:flex ">
           <ContactUs />
